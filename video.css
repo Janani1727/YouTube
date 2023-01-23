@@ -1,0 +1,171 @@
+
+ body{
+  background-color: #181818;
+}
+
+ #main{
+    display: flex;
+    height:600px;
+    width:100%;
+    background-color: #181818;
+ }
+ #video_details{
+   flex:3;
+   height: 400px;
+ }
+#recommendation{
+    flex:1;
+}
+
+
+
+
+#video_details{
+     
+    padding:10px;
+    height:500px;
+    width:250px
+}
+
+#side{
+  border:0px solid rgb(255, 0, 183);
+  width:25%;
+  height:70px;
+}
+
+#logo{
+  width:100%;
+  height:70px;
+  border: 0px solid blue;
+  display: flex;
+  gap:10px;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+
+
+#one{
+  width:20%;
+  margin-top: 10px;
+  margin-left: 20px;
+ 
+}
+#side img{
+  width: 90%;
+  height:70px
+}
+#two{
+ 
+  margin-left: -200px;
+  width: 90%;
+  height: 7%;
+
+}
+
+#side div{
+  width:100%;
+  height:70px;
+  border: 0px solid blue;
+  /* margin-top: 10px; */
+  display: flex;
+  gap:20px;
+  cursor: pointer;
+}
+
+
+/* #two{
+  width:300px
+}  */
+
+
+#navbar{
+ height:60px;
+ width:100%;
+ border: 1px solid  black;
+ display: flex;
+justify-content: space-evenly;
+}
+#navbar img{
+  width:50px;
+  border-radius: 50%;
+}
+
+#main{
+ /* display: flex; */
+background-color: #181818;
+ height:100%;
+ width:100%;
+ border: 0px solid black;
+}
+
+
+
+#video_details div{
+  width:500px;
+  border: 0px solid purple;
+  height:200%;
+  color:white
+  
+}
+#video_details img{
+  width:100%;
+  height:200px
+}
+
+i{
+  color: white;
+  /* width:10px; */
+  margin-left :20px;
+  margin-top: 20px;
+}
+
+p{
+  color:white;
+  margin-top:40px
+}
+input{
+  background-color: #212121;
+  width:450px;
+  height:40px;
+  color:white;
+  margin-top: 5px;
+  margin-left: 150px;
+}
+#se{
+ 
+  /* background-color: #393838; */
+ 
+  margin-top: 5px;
+  height: 40px;
+  width: 60px;
+ 
+  margin-right: 15px;
+}
+#se> i{
+  font-size: 20px;
+  margin-top: -7px;
+  margin-left: -8px;
+  
+}
+button{
+  background-color:gray;
+}
+#mic{
+  border-radius: 50%;
+  background-color: black;
+  width:50px;
+  height:50px;
+  margin-right: 50px;
+}
+#a{
+  display: flex;
+  width:200px;
+  height:50px;
+  justify-content: space-evenly;
+  margin-left: 100px;
+}
+#b{
+  display: flex;
+  margin-left: 80px;
+  margin-top:-200;
+}
