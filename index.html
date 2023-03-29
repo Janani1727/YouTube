@@ -1,100 +1,141 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You Tube  </title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="YT_Favicon_1.png">
 
     <script src="https://kit.fontawesome.com/17cf5fabe0.js" crossorigin="anonymous"></script>
 
 </head>
- 
+
 <body>
 
-    
-       <body onload="playVideo()">
+    <!-- <h1>You Tube</h1> -->
+    <div id="logocontainer">
 
-        <div id="container">
-           <div  id="side">
-            <div id="logo">
-               
-                <div id="one"><i class="fa-solid fa-bars"></i></div>
-                <div id="two"><img src="images/tube.png" alt=""></div>
-            </div>
+        <div id="bar"><i class="fa-solid fa-bars"></i></div>
 
-            <div>
-               <i> <i class="fa-solid fa-house"></i></i>
-                <p>Home</p>
-            </div>
-            <div>
-               <i> <i class="fa-regular fa-compass"></i></i>
-                <p>Explore</p>
-            </div>
-            <div>
-                <i><i class="fa-solid fa-house"></i></i>
-                <p>Shorts</p>
-            </div>
-            <div>
-                <i><i class="fa-solid fa-music"></i></i>
-                <p>music</p>
-            </div>
-            <div>
-                <i><i class="fa-solid fa-film"></i></i>
-                <p>Subscriptions</p>
-            </div>
-            <div>
-                <i><i class="fa-solid fa-arrow-rotate-right"></i></i>
-                <p>History</p>
-            </div>
-            <div>
-                <i><i class="fa-solid fa-thumbs-up"></i></i>
-                <p>liked videos</p>
-            </div>
-           
-           </div>
-           
-               <div id="main">
-                <div id="navbar"> 
-                    <div id="b"><input type="text" id="query">
-                        <button id="se" onclick="searchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <div id="mic"><i class="fa-solid fa-microphone"></i></div>
-                    </div>
-                   
-                   
-                    <div id="a">
-                        <div><i class="fa-solid fa-video"></i></div>
-                        <div id="bell"><i class="fa-regular fa-bell"></i></div>
-                        <div><img src="https://yt3.ggpht.com/yti/AJo0G0mwmqFDbSwbgqyV3q97-EJpt8IcUvFSsnihbw=s88-c-k-c0x00ffffff-no-rj-mo" alt=""></div>
-                        
-                    </div>
-                  
-                </div>
+      <a href="video.html"><img src="yt_logo_rgb_dark.png" alt="" id="logo"></a>
 
-                  
-                <div id="video_details"></div> 
-               </div>
-        </div>
-           
-       
-          
-    
-    <!-- <h1>Youtube</h1> -->
 
-   
-
-    <!-- <div id="filters">
-
-        sort  by: <button> Relevance</button>
-        <button on click="searchVideosAlphabet()">Alphabetically</button>
-        <button>Popularity</button>
     </div>
 
-    
-    <div id="search_results"></div> -->
- <!-- <div id="container"></div> 
- -->
+    <div id="searchcontainer">
+        <i class="fa-thin fa-video-plus"></i>
+        <input type="text" placeholder="Search" id="query"><i class="fa-solid fa-xmark"></i>
+
+        <button onclick="SearchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button> 
+        
+        <div id="microcont"><i class="fa-solid fa-microphone"></i> </div>
+        
+        <i class="fa-regular fa-bell"></i>
+        <img src="https://avatars.githubusercontent.com/u/109611448?v=4" alt="" id="pic">
+
+
+
+    </div>
+
+
+
+
+
+   <hr id="four">
+
+ 
+
+   <hr id="five">
+
+    <div id="corner">
+
+        <div id="p_1">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+
+        </div>
+
+        <div id="p_1">
+            <i class="fa-regular fa-compass"></i>
+            <p>Explore</p>
+
+        </div>
+
+      
+        <!-- <div id="p_1">
+             <i class="fa-solid fa-house"></i>
+           
+            <img src="shorts.png" alt="">
+            <p>Shorts</p>
+
+        </div>  -->
+        <div id="p_1">
+
+          
+            <i class="fa-regular fa-folder-open"></i>
+         
+            <p>Subscriptions</p>
+           
+
+        </div>
+        
+        <!-- <hr id="one"> -->
+     
+
+
+        <div id="p_2">
+            <i class="fa-regular fa-square-caret-right"></i>
+            <p>Library</p>
+
+        </div>
+
+        <div id="p_2">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>History</p>
+
+        </div>
+        <div id="p_2">
+            <i class="fa-regular fa-square-caret-right"></i>
+            <p>Your Videos</p>
+
+        </div>
+        <div id="p_2">
+            <i class="fa-regular fa-clock"></i><br>
+            <p>Watch Later</p>
+
+        </div>
+
+
+        <div id="p_2">
+            <i class="fa-regular fa-thumbs-up" id="thumb"></i>
+            <p>Liked Videos</p>
+
+        </div>
+
+        <div id="p_2">
+            <i class="fa-solid fa-angle-down"></i>
+            <p>Show More</p>
+
+        </div>
+<!-- 
+      <hr id="two"> -->
+
+        <h3>Subscriptions</h3>
+<!-- 
+        <hr id="three"> -->
+    </div>
+
+    <div id="container">
+
+
+    </div>
+    </div>
 </body>
+
 </html>
+
 <script src="index.js"></script>

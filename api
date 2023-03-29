@@ -1,0 +1,6 @@
+
+
+    
+`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=${query}&key=${api}`
+    
+ const api=`AIzaSyC63RHmWuZg9mYGoEQ2v-FHfJvPIUiyl_w`

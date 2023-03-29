@@ -4,50 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video</title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="video.css">
     <script src="https://kit.fontawesome.com/17cf5fabe0.js" crossorigin="anonymous"></script>
+    
 
 </head>
-
-
 <body onload="playVideo()">
+
+    <div id="logocontainer">
+
+        <div id="bar"><i class="fa-solid fa-bars"></i></div>
+ 
+ <a href="home.html"><img src="yt_logo_rgb_dark.png" alt="" id="logo"></a>
+   
+ 
+     </div>
+
+
+     <div id="searchcontainer">
+        <i class="fa-thin fa-video-plus"></i>
+    <input type="text" placeholder="Search" id="query"><i class="fa-solid fa-xmark"></i>
+
+    <button onclick="SearchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <div id="microcont"><i class="fa-solid fa-microphone"></i>  </div>
+    
+    <i class="fa-regular fa-bell"></i>
+    <img src="https://avatars.githubusercontent.com/u/109611448?v=4" alt="aa" id="pic">
+
+   
+  
+    </div>
+
+  
+
+
+
+     <div id="main">
+
+        
+  
+
+    <div id="video_details">
+
+      
+    </div>
+
+
+
+     <div id="recommend"></div>
+
+     
    
 
+    </div>
+
+    <!-- <div id="icons">
+
+        <i class="fa-regular fa-thumbs-up" id="thumb"></i><br><p id="clip">Like</p><br><br>
+
+        <i class="fa-regular fa-thumbs-down"></i><br><p id="clip">Dislike</p><br><br>
     
-        <div id="navbar"> 
-
-            <div  id="side">
-                <div id="logo">
-                   
-                    <div id="one"><i class="fa-solid fa-bars"></i></div>
-                    <div id="two"><img src="images/tube.png" alt=""></div>
-                </div>
-                </div>
-
-            <div id="b"><input type="text" id="query">
-                <button id="se" onclick="searchVideos()"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <div id="mic"><i class="fa-solid fa-microphone"></i></div>
-            </div>
-           
-           
-            <div id="a">
-                <div><i class="fa-solid fa-video"></i></div>
-                <div id="bell"><i class="fa-regular fa-bell"></i></div>
-                <div><img src="https://yt3.ggpht.com/yti/AJo0G0mwmqFDbSwbgqyV3q97-EJpt8IcUvFSsnihbw=s88-c-k-c0x00ffffff-no-rj-mo" alt=""></div>
-                
-            </div>
-          
-        </div>
+        <i class="fa-sharp fa-solid fa-share"></i><br><p id="clip">Share</p><br><br>
+        
+        <i class="fa-solid fa-scissors"></i><p id="clip">Clip</p><br><br>
     
+        <i class="fa-solid fa-plus"></i><br><p id="clip">Save</p><br><br>
+    
+        <i class="fa-solid fa-ellipsis"></i>
 
-    <div id="main">
-
-    <div id="video_details"> </div>
-
-    <div id="recommendation"></div>
-
-</div>
+    </div> -->
+    
+    
 </body>
 </html>
 
